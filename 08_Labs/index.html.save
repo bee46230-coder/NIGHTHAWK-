@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NIGHTHAWK Cybersecurity Center</title>
+<style>
+body {
+  background:#10151c;
+  color:#e5edf5;
+  font-family:Arial,sans-serif;
+  margin:0;
+  padding:20px;
+}
+header {border-bottom:1px solid #344252;padding-bottom:15px}
+h1 {color:#35dc8b;letter-spacing:3px}
+h2 {color:#35dc8b;font-size:19px}
+.card {
+  background:#1b2633;
+  border:1px solid #344252;
+  border-radius:12px;
+  padding:16px;
+  margin:12px 0;
+}
+a {color:#35dc8b;text-decoration:none}
+bu
+</header>
+
+<div class="card">
+<h2>Welcome, Operator</h2>
+<p>Your cybersecurity training environment is online.</p>
+<p>Mission: Learn. Research. Test. Defend.</p>
+</div>
+
+<div class="card">
+<h2>01 — Linux Academy</h2>
+<p>Learn Termux, Linux commands and file systems.</p>
+<a href="#linux">Open lessons →</a>
+</div>
+
+<div class="card">
+<h2>02 — Network Security</h2>
+<p>Learn IP addresses, ports, TCP, UDP and Nmap.</p>
+<a href="#network">Open lessons →</a>
+</div>
+
+<div class="card">
+<h2>03 — Python Academy</h2>
+<p>Learn programming and build security tools.</p>
+<a href="#python">Open lessons →</a>
+</div>
+
+<div class="card">
+<h2>04 — Web Security</h2>
+<p>Learn HTTP, OWASP and web security testing.</p>
+<a href="#web">Open lessons →</a>
+</div>
+
+<div class="card">
+<h2>05 — Password Security</h2>
+<p>Study hashes, encryption and authentication.</p>
+<a href="#passwords">Open lessons →</a>
+</div>
+
+<div class="card" id="linux">
+<h2>Linux: First Lesson</h2>
+<p><b>pwd</b> displays your current directory.</p>
+<p><b>ls</b> lists files and folders.</p>
+<p><b>whoami</b> displays your current username.</p>
+</div>
+
+<div class="card" id="network">
+<h2>Networking: First Lesson</h2>
+<p>127.0.0.1 is the loopback address.</p>
+<p>Port 8000 is the port used by our local lab.</p>
+<p>HTTP is a protocol used to transfer web content.</p>
+</div>
+
+<div class="card" id="python">
+<h2>Python: First Lesson</h2>
+<p>Python lets us create our own security utilities.</p>
+<pre>print("NIGHTHAWK ONLINE")</pre>
+</div>
+
+<div class="card" id="web">
+<h2>Web Security: First Lesson</h2>
+<p>Learn HTTP requests, responses, headers and web vulnerabilities.</p>
+</div>
+
+<div class="card" id="passwords">
+<h2>Password Security: First Lesson</h2>
+<p>Learn secure hashing, salts and password storage.</p>
+</div>
+
+<footer>
+<p><small>NIGHTHAWK | Educational use and authorized testing only.</small></p>
+</footer>
+</body>
+</html>
++0
